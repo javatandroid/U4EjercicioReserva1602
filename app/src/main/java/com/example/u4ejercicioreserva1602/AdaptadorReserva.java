@@ -40,7 +40,7 @@ public class AdaptadorReserva extends ArrayAdapter<Reserva> {
 
         //TextView Personas
         TextView tvpersonas=(TextView)item.findViewById(R.id.tvListaReservaPersonas);
-        tvpersonas.setText(reservas.get(position).getPersonas());
+        tvpersonas.setText(""+reservas.get(position).getPersonas());
 
         //TextView Dia
         TextView tvdia=(TextView)item.findViewById(R.id.tvListaReservaDia);
