@@ -56,6 +56,7 @@
                 android:layout_marginLeft="@dimen/dimen20"
                 android:textColor="@color/colorBlanco"
                 android:background="@drawable/estilobotonesprinc"
+                android:onClick="botonMainReservar"
                 android:text="@string/btnreservar" />
         </LinearLayout>
 
@@ -81,6 +82,7 @@
                 android:layout_marginLeft="@dimen/dimen20"
                 android:textColor="@color/colorBlanco"
                 android:background="@drawable/estilobotonesprinc"
+                android:onClick="botonMainVerReservas"
                 android:text="@string/btnreservas" />
         </LinearLayout>
     </LinearLayout>
@@ -98,7 +100,8 @@
             app:srcCompat="@drawable/information"
             android:layout_alignParentRight="true"
             android:layout_marginRight="@dimen/dimen20"
-            android:layout_marginBottom="@dimen/dimen20"/>
+            android:layout_marginBottom="@dimen/dimen20"
+            android:onClick="DialogInfo"/>
     </RelativeLayout>
 
 
