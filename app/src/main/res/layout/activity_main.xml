@@ -10,7 +10,8 @@
 
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="@dimen/dimen100">
+        android:layout_height="@dimen/dimen100"
+        android:background="">
 
         <TextView
             android:layout_width="match_parent"
@@ -101,7 +102,7 @@
             android:layout_alignParentRight="true"
             android:layout_marginRight="@dimen/dimen20"
             android:layout_marginBottom="@dimen/dimen20"
-            android:onClick="DialogInfo"/>
+            android:onClick="dialogInfo"/>
     </RelativeLayout>
 
 

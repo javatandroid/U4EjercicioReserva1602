@@ -21,6 +21,8 @@ public class ReservaActivity extends AppCompatActivity {
         etPersonas=(EditText)findViewById(R.id.etResPersonas);
         etObservaciones=(EditText)findViewById(R.id.etResObservaciones);
 
+        spDia =(Spinner)findViewById(R.id.spRes)
+
 
     }
 

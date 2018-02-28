@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/U4EjercicioReserva1602.iml" filepath="$PROJECT_DIR$/U4EjercicioReserva1602.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/U4EjercicioReserva1602.iml" filepath="$PROJECT_DIR$/.idea/U4EjercicioReserva1602.iml" />
+      <module fileurl="file://C:\Users\Javi\AndroidStudioProjects\U4EjercicioReserva1602\U4EjercicioReserva1602.iml" filepath="C:\Users\Javi\AndroidStudioProjects\U4EjercicioReserva1602\U4EjercicioReserva1602.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>

@@ -48,11 +48,11 @@ public class AdaptadorReserva extends ArrayAdapter<Reserva> {
 
         //TextView Hora
         TextView tvhora=(TextView)item.findViewById(R.id.tvListaReservaHora);
-        tvhora.setText(""+reservas.get(position).getHora());
+        tvhora.setText(reservas.get(position).getHora());
 
         //TextView Observaciones
         TextView tvobservaciones=(TextView)item.findViewById(R.id.tvListaReservaObservaciones);
-        tvobservaciones.setText(""+reservas.get(position).getObservaciones());
+        tvobservaciones.setText(reservas.get(position).getObservaciones());
 
         return item;
     }

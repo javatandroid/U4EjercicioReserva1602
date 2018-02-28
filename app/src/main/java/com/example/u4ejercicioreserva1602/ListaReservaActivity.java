@@ -1,5 +1,6 @@
 package com.example.u4ejercicioreserva1602;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -30,6 +31,8 @@ public class ListaReservaActivity extends AppCompatActivity {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 Reserva r =((Reserva)parent.getItemAtPosition(position));
+                Intent i=new Intent (getApplicationContext(),InfoReservaActivity.class);
+                startActivity(i);
 
             }
         });
